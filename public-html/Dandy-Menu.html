@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title> - Dandy Brewing</title>
+    <meta name="description" content="Dandy Brewing" />
+    <link rel="stylesheet" href="Dandy.css" />
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-bar">
+                <!-- Navigation-bar responsiveness -->
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                  <img
+                    src="images/hamburger.png"
+                    alt="hamburger menu"
+                    class="hamb-menu"
+                  />
+                </label>
+                <!-- xxxxxxx Navigation-bar responsiveness -->
+        
+        <ul>
+          <li class="li-text li-beers" onclick="openBeers()">
+            <a href="./Beers.html">BEERS</a>
+          </li>
+          <li class="li-text li-menu" onclick="openMenu()"><a href="./Dandy-Menu.html">MENU</a></li>
+          <li class="li-img li-home">
+            <img
+              alt="Dandy logo"
+              class="dandy-logo"
+              src="images/Dandy_Brewing_Logo+white.png"
+            />
+          </li>
+          <li class="li-text li-tr"><a href="#">TASTING ROOM</a></li>
+          <li class="li-text li-contact"><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <header>
+        <section class="class-section">
+          <div class="img-section">
+            <h1>  Dining Menu </h1>
+          </div>
+        </section>
+      </header>
+      <div class="body-class">
+        <div class="img-text">
+          <h1>Now Serving Wednesday - Sunday</h1>
+        </div>
+        <div>
+          <div class ="divider">
+          </div>
+        <div class="under-main">
+                <p>
+                  Offering a full lunch, dinner and brunch menu, the Tasting Room brings a unique drinking menu to the
+                  craft beer experience.
+                  With snacks, plates, desserts, and a fresh oyster bar, the menu is meant to be shared among friends and
+                  lovers. Always evolving, the menu is perfectly paired with all things Dandy. Vegetarian and Vegan options available. Please ask your server.
+                  <Br><Br>Open for Lunch, Dinner, and Brunch. <Br><Br>
+                </p>
+              </div>
+        <div>
+          <button type="button" class="booking-button">Book Now</button> <Br><Br><!-- Needs to link to a booking page -->
+          </div>
+          <Br><Br> Alernatively Please call 587-956-8836 to book a table or place take-away orders. <Br><Br>
+        <div>
+          <div class ="divider">
+          </div>
+         <div class="menu">
+           <div class="menu-left">
+            <img src="images/Menu-left.jpg">
+           </div>
+           <div class="menu-right">
+            <img src="images/Menu-right.jpg">
+           </div>
+         </div> 
+        
+          </div>
+
+    </main>
+    <footer>
+      <div class="ft">
+        <div class="footer-icons">
+          <ul>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/facebook.png"
+                  alt="facebook icon"
+                  class="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/Twitter.png"
+                  alt="Twitter icon"
+                  class="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/instagram.png"
+                  alt="Instagram icon"
+                  class="instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <h4>
+          The Dandy Brewing Company and tasting room, 2003 11 Street SE,
+          Calgary, AB, T2G 3G6, Canada.<br> 
+          Photos by Arif Ansari and Chris Wideman
+
+        </h4>
+      </div>
+    </footer>
+    <script src="/dandy.js"></script>
+
+  </body>
+</html>

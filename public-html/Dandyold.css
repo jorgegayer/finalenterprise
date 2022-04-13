@@ -1,0 +1,434 @@
+/* Initial Setup of the page */
+
+* {
+  /* max-width: 100vw; */
+  align-content: center;
+  /* set the vertical align to middle */
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+.class-section h3 {
+  font-weight: 10;
+  color: rgba(141, 132, 132, 0.897);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 5;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.class-seasons h3 {
+  font-weight: 10;
+  color: rgba(141, 132, 132, 0.897);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 5;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background-color: rgba(15, 10, 34, 0.705);
+}
+
+/* this session configures the navigation bar (home, top songs and community) */
+nav {
+  /* background-color: #484444; */
+  list-style: none;
+  /* padding: 1px; */
+  float: none;
+  width: 100%;
+  position: initial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* font-size: 1vw; */
+  margin: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.897),
+    rgba(15, 10, 34, 0.705)
+  );
+}
+
+.dandy-logo {
+  width: 75px;
+  height: 75px;
+  margin-left: 70px;
+}
+
+/* initial configuration of the navigation bar */
+nav li {
+  /* put the list items on the same line */
+  display: inline-block;
+  text-align: center;
+  /* add a little space between the menu options */
+  padding-right: 5vw;
+  border-bottom: 3px solid #070707;
+}
+nav ul {
+  text-align: center;
+  margin: 0%;
+}
+
+nav li:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(104, 100, 100, 0.897),
+    rgba(15, 10, 34, 0.705)
+  );
+  border-radius: 3%;
+  border-bottom: 3px solid darkred;
+  cursor: pointer;
+}
+
+.li-beers {
+  background-image: linear-gradient(
+    to top,
+    rgba(104, 100, 100, 0.897),
+    rgba(15, 10, 34, 0.705)
+  );
+  border-radius: 3%;
+  border-bottom: 3px solid darkred;
+  cursor: pointer;
+}
+
+.li-text {
+  padding: 25px 25px;
+}
+
+/* changing the format of the link we have on the navigation bar */
+nav a {
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: 80;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* setting page title size */
+.page-title {
+  font-size: 24px;
+}
+
+/* formatting main text inside the image section */
+.main-text-font h1 {
+  font-size: 2.8vw;
+}
+
+/* formatting the text below the lyric name. */
+header h2 {
+  font-size: 2vw;
+  font-weight: lighter;
+
+  /* reduce the distance between the lyric name and the band */
+  margin-top: 0px;
+}
+
+.class-section {
+  background-image: url(./images/images/Kegs.jpg); /*set a background image for the div*/
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 300px;
+}
+
+.class-seasons {
+  margin-top: 80px;
+  background-image: url(./images/images/Beers.jpg); /*set a background image for the div*/
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 300px;
+}
+
+/* formatting the div in front of the image and setting oppacity just like the model */
+.img-section {
+  max-width: 80vw;
+  margin: auto;
+  width: 100%;
+  /* background-color: rgb(0,0,0,0.8); */
+}
+
+/* this is the div with the image and the text */
+/* here it is created the structure of the page */
+.img-text {
+  /* text-transform: uppercase; */
+  color: rgba(141, 132, 132, 0.897);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+  width: 95%;
+  align-content: center;
+  display: grid;
+  position: relative;
+  height: auto;
+  font-size: 1.2vw;
+}
+.img-text h1,
+.img-section h1 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: rgba(141, 132, 132, 0.897);
+  font-size: 5vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 5;
+  z-index: -1;
+ 
+}
+
+.img-text h1 {
+  text-align: center;
+  margin-right: 0px;
+}
+
+.img-section h1 {
+  text-align: right;
+  font-size: 10vw;
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-right: 0px;
+}
+.body-class {
+  text-align: center;
+}
+
+/* formatting the line on the footer */
+footer hr {
+  border: 2px solid #ffff00;
+  width: 80vw;
+}
+
+footer {
+  margin-top: 60px;
+}
+.parent,
+.sparent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.2fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  height: 450px;
+}
+
+.img1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.square1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.img2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.square2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.img3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.square3 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.img4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.square4 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.card1,
+.scard1,
+.card2,
+.scard2,
+.card3,
+.scard3,
+.card4,
+.scard4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5%;
+  transition: 0.4s;
+}
+
+.img1,
+.img3 {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  height: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-size: large;
+  background-image: url("images/images/Tanks.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+.img2,
+.img4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  height: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: large;
+  /* border-bottom: 3px solid #ffff00; */
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.simg1,
+.simg2,
+.simg3,
+.simg4 {
+  background-image: none;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  height: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  font-size: large;
+  /* border-bottom: 3px solid #ffff00; */
+  /* background-color: rgba(0, 0, 0, 0.9);  */
+  background-image: url("images/images/Tanks.jpg");
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+.simg1 {
+  background-image: url("images/images/IMG_0390.JPG");
+}
+.simg2 {
+  background-image: url("images/images/IMG_0507.jpg");
+}
+.simg3 {
+  background-image: url("images/images/IMG_0594.JPG");
+  background-position: center;
+}
+.simg4 {
+  background-image: url("images/images/IMG_20190518_104031.jpg");
+}
+
+.square1,
+.square2,
+.square3,
+.square4 {
+  padding: 12px 12px;
+  text-align: center;
+}
+
+.square1 h4,
+.square2 h4,
+.square3 h4,
+.square4 h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+/* defining a size to the footer section */
+.ft {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: aliceblue;
+  font-variant: small-caps;
+  font-weight: 10;
+  font-size: small;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.ft h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: aliceblue;
+  font-variant: small-caps;
+  font-weight: 10;
+  text-align: center;
+}
+h3 {
+  color: #c7c70e;
+}
+.under-main,
+.sunder-main {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 10px;
+  margin: 0;
+  text-align: end;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+}
+
+@media (max-width: 900px) {
+  /* formatting main text inside the image section */
+  .main-text-font h1 {
+    font-size: 20px;
+  }
+
+  /* formatting the text below the lyric name. */
+  header h2 {
+    font-size: 15px;
+    font-weight: lighter;
+
+    /* reduce the distance between the lyric name and the band */
+    margin-top: 0px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
+}
+
+.footer-icons {
+  float: right;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+footer img {
+  height: 40px;
+  width: auto;
+}
+
+footer img:hover {
+  transform: scale(0.8);
+}
+footer li {
+  display: inline-block;
+  margin-left: 20px;
+}

@@ -1,0 +1,10 @@
+.li-beers {
+  background-image: linear-gradient(
+    to top,
+    rgba(104, 100, 100, 0.897),
+    rgba(15, 10, 34, 0.705)
+  );
+  border-radius: 3%;
+  border-bottom: 3px solid darkred;
+  cursor: pointer;
+}
